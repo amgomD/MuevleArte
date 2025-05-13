@@ -63,7 +63,7 @@ right: 0px;
 }
 .logo{
     margin-left: 8%;
-    
+    cursor: pointer;
 }
 
 .InputBuscar{
@@ -76,6 +76,18 @@ right: 0px;
     height: fit-content;
 
 }
+
+.InputEmail{
+    background-color: #dfdad400;
+    border: 0px;
+    color: #647164;
+    border-bottom: 1px solid #647164;
+    outline: none;
+    font-size: 25px;
+    height: fit-content;
+
+}
+
 .iconos{
     display: flex;
     gap: 15px;
@@ -182,13 +194,78 @@ background-color: #E6E2DC;
     color: #647164;
     width: 100%;
     display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 50px;
     box-sizing: border-box;
     height: 50%;
     background-color: #C7D2BE;
-        height: 50dvh;
+        height: 20dvh;
+        
 }
 footer{
     background-color: #647164;
     height: 30dvh;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+        padding: 50px;
+  position: relative; /* Si lo deseas, puedes cambiarlo a absolute */
+  margin-top: auto; /* Esto empuja el footer hacia el fondo */
+    box-sizing: border-box;
+}
+
+.descripcionlist{
+    width: 50%;
+}
+.emaillist{
+    width: 50%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.descripcionlist h3{
+    font-size: 30px;
+}
+
+
+.info h3{
+    color: #D3D4C3;
+    font-weight: 400;
+    font-size: 30px;
+}
+.info p{
+    width: 290px;
+        color: #D3D4C3;
+}
+.contacto{
+    gap: 10px;
+          color: #D3D4C3;  
+          display: flex;
+}
+
+.bannerCategoria{
+    margin-top: 20px;
+    width: 100%;
+
+    height: 70vh;
+background-image: url('../img/BannerSofaCama.png');                                    /* Imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  padding: 100px;
+}
+
+#Titulocategoria{
+    font-size: 100px;
+    color: white;
+      line-height: 80px;
+}
+#descripcionCat{
+    font-weight: 200;
+        font-size: 20px;
+      width: 600px;
+    color: white;
 }
