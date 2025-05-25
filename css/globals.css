@@ -1,0 +1,315 @@
+*{
+    font-family: "Poppins", sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #DFDAD4;
+}
+.contenedor{
+    width: 100%;
+    height: 100dvh;
+}
+.banner{
+position: absolute;
+width: 50%;
+top: 0px;
+z-index: -100;
+right: 0px;
+}
+.Mensaje{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    color: #647164;
+}
+
+.TituloGrande{
+    line-height: 1cap;
+    font-size: 110px;
+}
+.descripcion{
+    margin-top: 15px;
+    font-size: 15px;
+    width: 600px;
+}
+.descripcioncorta{
+    margin-top: 15px;
+    font-size: 15px;
+    width: 400px; 
+}
+.botonOscuro{
+    margin-top: 20px;
+    background-color: #647164;
+    color: white;
+    font-weight: 200;
+    font-size: 15px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+      cursor: pointer;
+    width: fit-content;
+}
+
+.menuSuperior{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items:center ;
+}
+.logo{
+    margin-left: 8%;
+    cursor: pointer;
+}
+
+.InputBuscar{
+    background-color: #DFDAD4;
+    border: 0px;
+    color: #647164;
+    border-bottom: 1px solid #647164;
+    outline: none;
+    font-size: 15px;
+    height: fit-content;
+
+}
+
+.InputEmail{
+    background-color: #dfdad400;
+    border: 0px;
+    color: #647164;
+    border-bottom: 1px solid #647164;
+    outline: none;
+    font-size: 25px;
+    height: fit-content;
+
+}
+
+.iconos{
+    display: flex;
+    gap: 15px;
+    margin-right: 10%;
+    cursor: pointer;
+}
+a{
+      color: #647164;
+      text-decoration: none;
+}
+a:hover{
+      text-decoration: underline; 
+}
+
+.categorias{
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    height: 90vh;
+}
+.ladoizquierdo{
+    width: 70%;
+    height: 100%;
+background-color: #4e473c;
+}
+.ladoDerecho{
+        color: #647164;
+    width: 30%;
+    height: 100%;
+        box-sizing: border-box;
+        padding-top:100px;
+    position: relative;
+background-color: #E6E2DC;
+}
+.sofacamas{
+    color: #647164;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 50px;
+    height: 50%;
+    background-color: #C7D2BE;
+}
+.sofacamas img{
+    margin-left: 100px;
+}
+.sofacamasl{
+    color: #647164;
+    width: 100%;
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    padding: 50px;
+    height: 50%;
+    background-color: #D3D4C3;
+}
+
+.Botonoutline{
+    margin-top: 20px;
+    background-color: #ffffff00;
+    color: 647164;
+    border: 1px solid #647164;
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    width: fit-content;
+}
+.titulomediano{
+    font-size: 50px;
+}
+
+.sofacamalimg{
+    position: absolute;
+    right: -40px;
+}
+.SalaModularimg{
+    right: 0px;
+    width: 500px;
+    bottom: 0px;
+    position: absolute;  
+}
+
+.descripMensajeL{
+    margin-left: 100px;
+}
+
+.lista{
+    background-color: white !important;
+}
+
+.referencias{
+    padding: 20px;
+ box-sizing: border-box;
+    width: 100%;
+    height: 50dvh;
+        color: #647164;
+}
+.email{
+    color: #647164;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 50px;
+    box-sizing: border-box;
+    height: 50%;
+    background-color: #C7D2BE;
+        height: 20dvh;
+        
+}
+footer{
+    background-color: #647164;
+    height: 30dvh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+        padding: 50px;
+  position: relative; /* Si lo deseas, puedes cambiarlo a absolute */
+  margin-top: auto; /* Esto empuja el footer hacia el fondo */
+    box-sizing: border-box;
+}
+
+.descripcionlist{
+    width: 50%;
+}
+.emaillist{
+    width: 50%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.descripcionlist h3{
+    font-size: 30px;
+}
+
+
+.info h3{
+    color: #D3D4C3;
+    font-weight: 400;
+    font-size: 30px;
+}
+.info p{
+    width: 290px;
+        color: #D3D4C3;
+}
+.contacto{
+    gap: 10px;
+          color: #D3D4C3;  
+          display: flex;
+}
+.botones{
+    display: flex;
+    gap: 10px;
+}
+.bannerCategoria{
+    margin-top: 20px;
+    width: 100%;
+
+    height: 70vh;
+background-image: url('../img/BannerSofaCama.png');                                    /* Imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  padding: 100px;
+}
+
+.bannerCatalogo{
+    margin-top: 20px;
+    width: 100%;
+
+    height: 90vh;
+background-image: url('../img/BannerCatalogo.png');                                    /* Imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  padding: 100px;
+}
+
+
+#Titulocategoria{
+    font-size: 100px;
+    color: white;
+      line-height: 80px;
+}
+#descripcionCat{
+    font-weight: 200;
+        font-size: 20px;
+      width: 600px;
+    color: white;
+}
+
+.mueblefoto{
+ 
+    width: 100%;
+display: flex;
+    height: 70vh;
+                          /* Imagen de fondo */
+
+  box-sizing: border-box;
+}
+.ladoDer{
+        width: 100%;
+      background-size: cover;
+      height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+    background-image: url('../Muebles/Lbaryog.png');          
+}
+
+.ladoIzq{
+    width: 100%;
+      background-size: cover;
+      height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+    background-image: url('../Muebles/LbaryAmarillo.png');          
+}

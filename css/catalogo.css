@@ -1,0 +1,66 @@
+
+    .gallery {
+
+      column-count: 4;
+      background-color: white;
+      column-gap: 1em;
+      padding: 1em;
+      padding-top: 50px;
+    }
+
+    .item {
+      position: relative;
+      margin-bottom: 1em;
+      break-inside: avoid;
+      cursor: pointer;
+    }
+
+    .item img {
+      width: 100%;
+      border-radius: 10px;
+      display: block;
+    }
+
+    .infocata {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgb(255, 255, 255);
+       color: #647164;
+      padding: 10px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      font-size: 14px;
+    }
+
+    .item:hover .infocata {
+      opacity: 1;
+    }
+
+    @media (max-width: 768px) {
+      .gallery {
+        column-count: 2;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .gallery {
+        column-count: 1;
+      }
+    }
+
+    .email{
+        background-color: A3C59E;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .email h1{
+text-align: center;
+    width: 100%;
+    }
