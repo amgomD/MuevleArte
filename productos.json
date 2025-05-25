@@ -1,0 +1,229 @@
+[
+  {
+    "id": 1,
+    "nombre": "Alamo",
+    "categoria": "Sofa Camas",
+    "precio": "$450.000",
+    "descripcion": "El tapizado es de un tejido suave al tacto que aporta un aire de elegancia y neutralidad, facilitando su combinación con diversos estilos de decoración. Los cojines del asiento son amplios y mullidos, con un relleno de espuma de alta densidad para mayor comodidad al sentarse",
+    "url_foto_portada": "./Muebles/Alamoog.jpg",
+    "url_foto_portada2": "./Muebles/AlamoPortada2.png",
+    "variantes": [
+      {
+        "id": 101,
+        "color": "#90705A",
+        "url_imagen": "./Muebles/Alamo3.png",
+        "cantidad": 0
+      },
+      {
+        "id": 102,
+        "color": "#B6C3CC",
+        "url_imagen": "./Muebles/Alamo.png",
+        "cantidad": 0
+      },
+          {
+        "id": 103,
+        "color": "#DFCEBA",
+        "url_imagen": "./Muebles/Alamo2.png",
+        "cantidad": 0
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Boreal",
+    "categoria": "Sofa Camas",
+    "precio": "$750.000",
+    "descripcion": "Agrega estilo y funcionalidad a tu hogar con el Sofá Cama Elegance, una pieza versátil ideal para espacios modernos y acogedores. Tapizado en tela tipo lino de alta calidad en tono beige claro, este sofá combina suavidad, confort y elegancia en un diseño contemporáneo.",
+    "url_foto_portada": "./Muebles/Boreal.jpg",
+        "url_foto_portada2": "./Muebles/BorealPortada.png",
+    "variantes": [
+      {
+        "id": 201,
+        "color": "#D1CCC7",
+        "url_imagen": "./Muebles/Boreal1.png",
+        "cantidad": 0
+      },
+      {
+        "id": 202,
+        "color": "#C2D4D8",
+        "url_imagen": "./Muebles/Boreal2.png",
+        "cantidad": 0
+      },
+      {
+        "id": 203,
+        "color": "#A4BECB",
+        "url_imagen": "./Muebles/Boreal3.png",
+        "cantidad": 0
+      }
+
+
+      
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Londres",
+    "categoria": "Sofa Camas",
+    "precio": "$750.000",
+    "descripcion": "Diseñado para maximizar el confort y la funcionalidad en espacios reducidos, el Sofá Cama Londres ofrece una experiencia única con su práctico sistema de cama deslizante.",
+    "url_foto_portada": "./Muebles/Londres.jpg",
+        "url_foto_portada2": "",
+    "variantes": [
+      {
+        "id": 301,
+        "color": "#BBB5A9",
+        "url_imagen": "./Muebles/londres1.png",
+        "cantidad": 0
+      }
+    ]
+  },
+    {
+    "id": 4,
+    "nombre": "L lisa",
+    "categoria": "Sofa Camas en L",
+    "precio": "$1.050.000",
+    "descripcion": "Lleva el confort escandinavo a tu hogar con el Sofá Cama Seccional L lisa, una pieza espaciosa, elegante y multifuncional que invita al descanso. Su diseño amplio, tapizado en un sofisticado tono beige natural, combina perfectamente con ambientes cálidos, minimalistas o bohemios.",
+    "url_foto_portada": "./Muebles/Llisa.jpg",
+        "url_foto_portada2": "./Muebles/Llisaportada2.png",
+    "variantes": [
+      {
+        "id": 401,
+        "color": "#E2DDD8",
+        "url_imagen": "./Muebles/Llisa1.png",
+        "cantidad": 0
+      },
+      {
+        "id": 402,
+        "color": "#BBA3BB",
+        "url_imagen": "./Muebles/Llisa2.png",
+        "cantidad": 0
+      },
+      {
+        "id": 403,
+        "color": "#C77D58",
+        "url_imagen": "./Muebles/Llisa3.png",
+        "cantidad": 0
+      }
+
+
+      
+    ]
+  },
+    {
+    "id": 5,
+    "nombre": "Aleman Berlin",
+    "categoria": "Sofa Camas en L",
+    "precio": "$850.000",
+    "descripcion": "Refina tu sala con el sofisticado Sofá Cama Seccional Aleman Berlin, un modelo de lujo con acabados tipo cuero ecológico en tono beige claro, que destaca por su diseño elegante, amplio y acolchado. Perfecto para quienes buscan confort sin sacrificar estilo.",
+    "url_foto_portada": "./Muebles/Aleman.jpg",
+        "url_foto_portada2": "",
+    "variantes": [
+      {
+        "id": 501,
+        "color": "#DCD6CA",
+        "url_imagen": "./Muebles/AlemanBerlinog.png",
+        "cantidad": 0
+      }
+    
+    ]
+  },
+    {
+    "id": 6,
+    "nombre": "Lisa",
+    "categoria": "Sofa Camas en L",
+    "precio": "$1.250.000",
+    "descripcion": "Funcionalidad, diseño y estilo se unen en el Sofá Cama Seccional Versátil Deluxe, una pieza llamativa que transformará cualquier espacio. Con acabados acolchados tipo capitoné en forma de diamante en su base y respaldo acanalado, este sofá no solo es visualmente atractivo, sino también cómodo y práctico.",
+    "url_foto_portada": "./Muebles/Lisa.jpg",
+        "url_foto_portada2": "./Muebles/LisaPortada2.png",
+    "variantes": [
+      {
+        "id": 601,
+        "color": "#E5C87C",
+        "url_imagen": "./Muebles/Lisa1.png",
+        "cantidad": 0
+      },
+      {
+        "id": 602,
+        "color": "#C6D5DA",
+        "url_imagen": "./Muebles/Lisa2.png",
+        "cantidad": 0
+      },
+      {
+        "id": 603,
+        "color": "#284FAC",
+        "url_imagen": "./Muebles/Lisa3.png",
+        "cantidad": 0
+      }
+
+
+      
+    ]
+  },
+    {
+    "id": 7,
+    "nombre": "Bary",
+    "categoria": "Sala Modular",
+    "precio": "$1.900.000",
+    "descripcion": "Con una estética limpia y proporciones equilibradas, el sofá Bary incorpora un chaise longue para mayor confort. Su formato modular permite reorganizar los asientos y el espaldar curvo otorga una sensación envolvente ideal para el descanso. Perfecto para salas modernas con toques naturales.",
+    "url_foto_portada": "./Muebles/Bary.jpg",
+        "url_foto_portada2": "./Muebles/BaryPortada2.png",
+    "variantes": [
+      {
+        "id": 701,
+        "color": "#9AAC91",
+        "url_imagen": "./Muebles/Bary1.png",
+        "cantidad": 0
+      },
+      {
+        "id": 702,
+        "color": "#E69867",
+        "url_imagen": "./Muebles/Bary2.png",
+        "cantidad": 0
+      }
+
+    ]
+  },
+  {
+    "id": 8,
+    "nombre": "L Bary",
+    "categoria": "Sala Modular",
+    "precio": "$2.000.000",
+    "descripcion": "El L Bary es la solución perfecta para quienes desean una sala funcional y con estilo. Este sofá modular permite una configuración tipo L ideal para optimizar espacios sin perder diseño. Su respaldo curvo y cojines integrados garantizan una experiencia ergonómica y estética.",
+    "url_foto_portada": "./Muebles/Lbaryog.png",
+    "url_foto_portada2": "./Muebles/Lbaryamarillo.png",
+    "variantes": [
+      {
+        "id": 801,
+        "color": "#BD705E",
+        "url_imagen": "./Muebles/Lbary.png",
+        "cantidad": 0
+      },
+      {
+        "id": 802,
+        "color": "#E5C87C",
+        "url_imagen": "./Muebles/Lbary2.png",
+        "cantidad": 0
+      }
+      
+    ]
+  },
+    {
+    "id": 9,
+    "nombre": "Bary cuadrada",
+    "categoria": "Sala Modular",
+    "precio": "$2.100.000",
+    "descripcion": "El Bary Cuadrada redefine el concepto de comodidad gracias a su diseño modular minimalista de formas cúbicas. Ideal para exteriores techados o espacios amplios tipo lounge, este sofá permite múltiples configuraciones adaptándose a tus necesidades. Sus cojines decorativos con textura artesanal añaden un toque cálido y acogedor.",
+    "url_foto_portada": "./Muebles/BaryCuadrada.jpg",
+    "url_foto_portada2": "",
+    "variantes": [
+      {
+        "id": 901,
+        "color": "#DDDFE0",
+        "url_imagen": "./Muebles/BaryCuadrada1.png",
+        "cantidad": 0
+      }
+   
+    ]
+  }
+  
+]

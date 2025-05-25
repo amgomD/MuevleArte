@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/globals.css">
+    <link rel="stylesheet" href="css/CardCategory.css">
+    <link rel="stylesheet" href="css/carrito.css">
+    <link rel="stylesheet" href="css/fuentes.css"
+      <link rel="icon" type="image/x-icon" href="img/icon.png">
+    <title>Carrito</title>
+    
+</head>
+
+<body>
+        <div class="contenedorcat">
+        <div >
+            <div class="menuSuperior">
+                <img id="logo" class="logo" width="100px" src="img/Logo.png" alt="logo">
+                <input list="browsers" class="InputBuscar" type="text" placeholder="Buscar">
+              <datalist class="lista" id="browsers">
+  <option value="Sofá camas"></option>
+  <option value="Sofá camas en L"></option>
+  <option value="Sala modular"></option>
+</datalist>
+
+                <div class="iconos">
+                    <a href="Index.html">Home</a>
+                   <a href="catalogo.html">Catalogo</a>
+                    <img id="carrito" src="img/Carrito.png" alt="carrito">
+                </div>
+            </div>
+
+
+
+  <div class="container">
+
+    <div class="cart-items">
+          <h1 style="font-weight: 400; margin-bottom: 20px;">Tus productos</h1>
+     <div id="Cartitems" class="cart-items2">
+
+     </div>
+     
+    
+
+
+      <div class="coupon">
+        <input type="text" placeholder="Coupon code">
+        <button>Aplicar</button>
+      </div>
+    </div>
+
+    <!-- Totales -->
+    <div class="cart-totals">
+      <h3>Tu compra</h3>
+      <div class="totals-line">
+        <span>Envio (3–5 Dias habiles)</span>
+        <span>
+  Gratis
+        </span>
+      </div>
+      <div class="totals-line">
+        <span>IVA (Estimado)</span>
+        <span>$0.00</span>
+      </div>
+      <div class="totals-line">
+        <span>Subtotal</span>
+        <span  id="subtotal">$0</span>
+      </div>
+      <div class="totals-line total">
+        <span>Total</span>
+        <span id="total">$0</span>
+      </div>
+      <button id="pago" class="btn">Proceder al pago</button>
+      <p style="text-align: center; margin-top: 1rem;"><a href="catalogo.html">← Sigue comprando</a></p>
+    </div>
+  </div>
+
+<footer>
+    <div class="info">
+        <h3>Muevlearte ® | Muebles</h3>
+        <p>Carrera 36 # 54 66, Bucaramanga, Santander 68000</p>
+    </div>
+    <div class="contacto">
+        <img width="50px" height="50px" src="img/wasap.png" alt="wasa">
+        <p>315 443 5620 <br>
+316 745 1671</p>
+    </div>
+
+    <div class="logopie">
+        <img src="img/Logopie.png" alt="">
+    </div>
+</footer>
+<script src="js/carrito.js"></script>
+</body>
+</html>
